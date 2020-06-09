@@ -17,10 +17,14 @@ setup(
     description="Play mp3 files over the commandline",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/josiah-bennett/mp3p",
     author="Josiah Bennett",
     author_email="josiah.bennett@web.de",
-    license="GNU GPLv3",
+    license="MIT",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+    ],
     packages=["mp3p"],
     include_package_data=True,
     install_requires=[
