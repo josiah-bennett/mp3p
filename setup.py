@@ -1,7 +1,7 @@
 """Setup script for mp3p"""
 
 import os.path
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # The directory containing this file
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -25,7 +25,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ],
-    packages=["mp3p"],
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
     install_requires=[
         "python-vlc"
