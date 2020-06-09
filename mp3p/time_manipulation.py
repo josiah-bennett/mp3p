@@ -1,4 +1,4 @@
-from mp3p.util.time_util import TimeUtil
+from mp3p.time_util import TimeUtil
 
 
 def goto_help(cmd):

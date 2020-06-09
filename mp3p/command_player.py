@@ -1,7 +1,7 @@
 from cmd import Cmd
-import mp3p.player.controls as ctrl
-import mp3p.player.volume as vol
-import mp3p.player.time_manipulation as tm
+import controls as ctrl
+import volume as vol
+import time_manipulation as tm
 import vlc
 
 
