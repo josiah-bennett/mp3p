@@ -12,7 +12,7 @@ volume &nbsp;: sets the volume based on an argument given as a percentage\
 mute &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: toggles between 0% volume and the last nonzero volume\
 goto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : jumps to the specified timestamp in the audio file\
 jump &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: jump forward or backward in the audio by the specified amount in seconds\
-exit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: exit out of the program\
+exit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: exit out of the program
 
 ## Istallation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install mp3p.
