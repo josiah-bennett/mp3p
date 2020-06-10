@@ -13,7 +13,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="mp3p",
-    version="1.0.0",
+    version="1.0.1",
     description="Play mp3 files over the commandline",
     long_description=README,
     long_description_content_type="text/markdown",
